@@ -3,6 +3,7 @@ body {
     letter-spacing: 1px;
     line-height: 1.2;
     background-image: url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg")
+
 }
 
 h1, h2, h3 {
@@ -59,4 +60,10 @@ div {
     flex-direction: column;
     line-height: 1.4rem;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 
