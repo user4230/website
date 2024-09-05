@@ -1,0 +1,62 @@
+body {
+    font-family: "Courier New", 'sans-serif';
+    letter-spacing: 1px;
+    line-height: 1.2;
+    background-image: url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg")
+}
+
+h1, h2, h3 {
+    color: #ffac75
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-indent: 10px;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4rem;
+}
+
+.Employment, .Education {
+    display: flex;
+    Justify-content: space-between;
+    font-size: 20px;
+}
+
+.about-myself h1, h2, h3, a, p, footer {
+    color: azure;
+}
+
+#header-information {
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 25px;
+}
+
+h3, h2 {
+    display: flex;
+    text-transform: uppercase;
+}
+
+h4 {
+    display: flex;
+    text-transform: uppercase;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4rem;
+}
+
