@@ -1,9 +1,8 @@
 body {
     font-family: "Courier New", 'sans-serif';
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 1.2;
-    background-image: url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg")
-
+    background-image: url("https://i.ytimg.com/vi/9sNQFJAb3Ss/maxresdefault.jpg")
 }
 
 h1, h2, h3 {
@@ -40,15 +39,15 @@ li {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 15px 25px;
 }
 
-h3, h2 {
-    display: flex;
-    text-transform: uppercase;
+#header-information ul {
+    list-style-type: none;
+    padding: 1rem;
+    margin: 1rem;
 }
 
-h4 {
+h3, h2, h4 {
     display: flex;
     text-transform: uppercase;
 }
@@ -62,6 +61,58 @@ div {
 a {
     text-decoration: none;
 }
+
+.section2 ul {
+    list-style-type: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.section3 ul {
+    list-style-type: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.fa-facebook, .fa-square-instagram, .fa-linkedin {
+    font-size: 3rem
+
+}
+
+.socialmedia {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin-left: 1px;
+}
+
+.fa-facebook {
+    margin: 1rem;
+    padding: 1rem;
+    color: #1877F2;
+}
+
+.fa-square-instagram {
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    background: linear-gradient(45deg, #f09433 0%,
+                                        #e6683c 25%,
+                                        #dc2743 50%,
+                                        #cc2366 75%,
+                                        #bc1888 100%);)
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.fa-linkedin {
+    margin: 1rem;
+    padding: 1rem;
+    color: #0077B5;
+}
+
+
 
 
 
